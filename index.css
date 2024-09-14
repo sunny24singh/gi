@@ -233,9 +233,9 @@ margin-top: 40rem;
 
 }
 
-/* #section1 {
-ma
-} */
+#section1 {
+ background-color: white;
+}
 
 
 
@@ -261,13 +261,13 @@ height: 800px;
 .section1_img {
 height: 600px;
 width: 500px;
-background-color: #ffffff;
+/* background-color: #ffffff; */
 }
 
 .data {
 height: auto;
 width: 500px;
-background-color: #ffffff;
+/* background-color: #ffffff; */
 }
 
 #section1_h1 {
@@ -455,13 +455,26 @@ right: 15px;
 /* ==================== section 2 css ======================================== */
 
 #main_section2 {
-
+   
 }
 
 
 #section2 {
   padding: 90px;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+#section2_text4 {
+font-size: 35px;
+font-weight: 600;
+color: rgb(85, 85, 85);
+text-align: center;
+text-decoration: underline;
+text-underline-offset: 15px;
+
+
 }
 
 #section2_flex {
@@ -474,49 +487,82 @@ right: 15px;
   
   
   
+  
 }
 
 .section2_data1 {
   width: 300px;
-  height: auto;
-  background-color: aquamarine;
+  height: 300px;
+  border: 1px solid rgb(226, 226, 226);
+  /* background-color: aquamarine; */
+  transition: box-shadow 0.3s ease;
+}
+
+.section2_data1:hover {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .section2_data2 {
   width: 300px;
   height: 300px;
-  background-color: rgb(155, 6, 168);
+  border: 1px solid rgb(226, 226, 226);
+  transition: box-shadow 0.3s ease;
+  /* background-color: rgb(155, 6, 168); */
+}
+
+.section2_data2:hover {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .section2_data3 {
   width: 300px;
   height: 300px;
-  background-color: rgb(255, 200, 127);
+  border: 1px solid rgb(226, 226, 226);
+  transition: box-shadow 0.3s ease;
+  /* background-color: rgb(255, 200, 127); */
+}
+
+.section2_data3:hover {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .section2_data4 {
   width: 300px;
   height: 300px;
-  background-color: rgb(228, 93, 93);
+  border: 1px solid rgb(226, 226, 226);
+  transition: box-shadow 0.3s ease;
+  /* background-color: rgb(228, 93, 93); */
+}
+
+.section2_data4:hover {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 
 
-.section2_img {
-  object-fit: contain;
+.image-container {
+  overflow: hidden;
+  display: inline-block;
 }
 
 #section2_img1 {
-  width: 281px;
-  height: 200px;
-  
-  
-  
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+ 
 }
+
+.image-container:hover #section2_img1 {
+  transform: scale(1.1);
+}
+
 
 #section_a_tag {
  text-decoration: none;
   margin-bottom: -15px;
+ 
 }
 
 #section2_text1 {
@@ -524,6 +570,7 @@ right: 15px;
   font-size: 20px;
   font-weight: 400;
   margin-bottom: -15px;
+  margin-left: 20px;
 
 }
 
@@ -531,6 +578,7 @@ right: 15px;
   color: rgb(85, 85, 85);
   font-size: 60px;
   margin-bottom: -15px;
+  margin-left: 20px;
 
 
 }
@@ -539,6 +587,30 @@ right: 15px;
   color: rgb(85, 85, 85);
   font-size: 20px;
   font-weight: 400;
-  
+  margin-left: 20px;
 
+}
+
+
+
+
+/* ===================================== section 3 css ============================================== */
+
+
+#section3_data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section3_datas1 {
+  height: 500px;
+  width: 500px;
+  background-color: #5ca1e1;
+}
+
+#section3_datas2 {
+  height: 500px;
+  width: 500px;
+  background-color: #616161;
 }

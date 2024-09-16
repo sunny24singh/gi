@@ -12,6 +12,23 @@ icon.addEventListener("click" , () => {
 let hover = document.querySelector(".image-container_section3");
 
 hover.addEventListener('mouseover' , () => {
-    let d = document.querySelector(".section3_datas2");
-    d.style.backgroundImage = "https://thumbs.dreamstime.com/b/map-mountain-peaks-tops-coloured-geospatial-data-gis-usage-digital-elevation-model-gis-product-made-305203475.jpg"
+
+   // let image = "url('https://eecenvironmental.com/wp-content/uploads/2017/08/GIS-1024x524.jpg')"
+    let d = document.querySelector("#section3_data_div1");
+    d.style.background = "rgba(0, 0, 0, 0.4)";
+   // d.style.height ="400px";
+   // d.style.width = "650px";
+   
+   
+     
+
+
+
+    
+    // d.style.opacity = "0.5"
+})
+
+hover.addEventListener('mouseout' , () => {
+    let d = document.querySelector("#section3_data_div1");
+    d.setAttribute("style" , "")
 })

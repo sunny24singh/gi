@@ -34,7 +34,7 @@ top: 0;
 }
 
 .navtoxix {
-/* backdrop-filter: blur(10px); */
+backdrop-filter: blur(10px);
 /* backdrop-filter: brightness(.5); */
   max-width: 1440px;
 
@@ -116,7 +116,7 @@ top: 0;
   
   list-style: none;
   text-decoration: none;
-  color: rgb(78, 199, 255);
+  color: #ffffff;
   font-size: 20px;
   margin-right: 15px;
   font-weight: 500;
@@ -138,7 +138,7 @@ top: 0;
 .LISTES:hover {
 
 margin-bottom: 15px;
-color: rgb(255, 160, 160);
+color: #0096FF;
 list-style: none;
 text-decoration: none;
 background-position: 100% 100%; /*OR bottom right*/
@@ -220,7 +220,7 @@ transition: background-color 600ms ease;
 }
 
 #header_btn:hover {
-background-color: rgb(56 189 248);
+background-color: #0096FF;
 color: white;
 border: 1px solid white;
 }
@@ -659,7 +659,7 @@ text-underline-offset: 15px;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
   color: #fff;
   display: flex;
   align-items: center;
@@ -676,7 +676,14 @@ text-underline-offset: 15px;
 .section3_datas2 {
   height: 400px;
   width: 650px;
-  background-color: #000000;
+  background-image: url('https://eecenvironmental.com/wp-content/uploads/2017/08/GIS-1024x524.jpg');
+
+}
+
+#section3_data_div1 {
+  height: 400px;
+  width: 650px;
+  background: black;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -710,7 +717,162 @@ text-underline-offset: 15px;
 }
 
 .section3_btn:hover {
-  background-color: #2980b9;
+  background-color: #0096FF;
   box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3);
   transform: scale(1.05);
 }
+
+
+#section3_text3 {
+  font-size: 35px;
+  text-align: center;
+}
+
+#section3_btn2 {
+  cursor: pointer;
+  height: 50px;
+  width: 170px;
+  margin-top: 15px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  transition: background-color 0.3s ease,
+              box-shadow 0.3s ease,
+              transform 0.3s ease;
+}
+
+#section3_btn2:hover {
+  background-color: #0096FF;
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+
+
+
+/* ================== footer css ===============================*/
+
+#fill_color {
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  margin-top: 3rem;
+}
+
+#section4_main {
+  padding-top: 40px;
+}
+
+
+#section4_text1 {
+  
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  color: white;
+}
+
+#span_text3 {
+  color: #0096FF;
+}
+
+
+#section4_data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 1rem;
+}
+
+.section4_data1 {
+  height: 300px;
+  width: 300px;
+  /* background-color: #2bdfff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.icon_div {
+  border: 1px solid white;
+  cursor: pointer;
+  padding: 7px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  transition: background-color 0.3s ease,
+  box-shadow 0.3s ease,
+  transform 0.3s ease;
+}
+
+.icon_div:hover {
+  background-color: #0096FF;
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+#section4_icon1 {
+  font-size: 30px;
+  color: white;
+  
+}
+
+.data1_text1 {
+  font-size: 18px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.data1_text2 {
+  font-size: 17px;
+  color: white;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+#data1_text2_atag {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
+
+.section4_data2 {
+  height: 300px;
+  width: 300px;
+  /* background-color: #ff792b; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.section4_data3 {
+  height: 300px;
+  width: 300px;
+  /* background-color: #ce2bff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+

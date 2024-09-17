@@ -876,3 +876,281 @@ text-underline-offset: 15px;
   gap: 15px;
 }
 
+
+/* ============================ sectoion 5 ==================================== */
+
+/* #footerrr {
+  background-color: black;
+} */
+
+#section5_main {
+  background-color: black;
+
+
+
+}
+
+#main_line3 {
+  width: 100%;
+
+}
+
+#lock {
+  margin: 0;
+  padding: 0;
+  color: rgb(133, 133, 133);
+}
+
+.section5_datas {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.section_data1 {
+  height: 400px;
+  width: 300px;
+ 
+  /* background-color: rgb(146, 132, 9); */
+  /* padding: 10px; */
+}
+
+.section_data2 {
+  height: 400px;
+  width: 300px;
+  /* border-right: 1px solid white; */
+  
+  /* background-color: rgb(197, 127, 255); */
+}
+
+.section_data3 {
+  height: 400px;
+  width: 300px;
+  /* border-right: 1px solid white; */
+  /* background-color: rgb(255, 142, 127); */
+}
+
+.section_data4 {
+  height: 400px;
+  width: 300px;
+  /* background-color: rgb(4, 192, 60); */
+}
+
+
+
+.section_data1_text1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 25px;
+  color: white;
+}
+
+.section_data1_text2 {
+  margin-left: 20px;
+  color: white;
+  font-weight: 300;
+}
+
+
+#section5_iconsanddata {
+  display: flex;
+  gap: 15px;
+  margin-left: 20px;
+  font-weight: 300;
+  color: white;
+  margin-top: 25px;
+}
+
+.section_data2_text1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 20px;
+  color: white;
+  margin-top: 25px;
+}
+
+#span_text4 {
+  color: #eeeeee;
+}
+
+
+#services_lis {
+  list-style: none;
+  font-weight: 300;
+  padding: 2px;
+  margin-left: 25px;
+ 
+ 
+}
+
+#services_data1 {
+  text-decoration: none;
+  color: white;
+  margin: 0px;
+}
+
+#services4_lis {
+  list-style: none;
+  font-weight: 300;
+  padding-left: 25px;
+}
+
+#COMPANY_data1 {
+  text-decoration: none;
+  color: white;
+ 
+}
+
+
+
+#section7_social_icon {
+  display: flex;
+  /* margin-top: 15px; */
+  gap: 0px;
+}
+
+#icon_ser {
+  text-decoration: none;
+  margin-left: 13px;
+}
+
+#fb_icon1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  transform: scale(.9);
+
+}
+
+#fb_icon1:hover::before {
+  transform: scale(1.1);
+  box-shadow: 50px 50px 50px #397cf8;
+  
+}
+
+#fb_icon1:hover {
+  color: #ffffff;
+  box-shadow: 0 0 50px #92b8ff; 
+  text-shadow:0px 0px 50px #92b8ff;
+  background-color: #397cf8;
+}
+
+#fb_icon2 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  transform: scale(.9);
+}
+
+#fb_icon2:hover::before {
+  transform: scale(1.1);
+  box-shadow: 50px 50px 50px #397cf8;
+  
+}
+
+#fb_icon2:hover {
+  color: #ffffff;
+  box-shadow: 0 0 50px #92b8ff; 
+  text-shadow:0px 0px 50px #92b8ff;
+  background-color: #397cf8;
+}
+
+#fb_icon3 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  transform: scale(.9);
+}
+
+#fb_icon3:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 50px #397cf8;
+  
+}
+
+#fb_icon3:hover {
+  color: #ffffff;
+  box-shadow: 0 0 50px #92b8ff; 
+  text-shadow:0px 0px 50px #92b8ff;
+  background-color: #397cf8;
+}
+
+#fb_icon4 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  transform: scale(.9);
+}
+
+#fb_icon4:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 50px #ff7272;
+  
+}
+
+#fb_icon4:hover {
+  color: #f83972;
+  box-shadow: 0 0 50px #ff7272; 
+  text-shadow:0px 0px 50px #ff7272;
+}
+
+#fb_icon5 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+  transform: scale(.9);
+
+}
+
+#fb_icon5:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 50px #ff0000;
+  
+}
+
+#fb_icon5:hover {
+  color: #ff0000;
+  box-shadow: 0 0 50px #ff0000; 
+  text-shadow:0px 0px 50px #ff0000;
+}
+
+#libas {
+  border-right: 1px solid white;
+  height: 350px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/* #l {
+  filter: brightness(150%);
+} */

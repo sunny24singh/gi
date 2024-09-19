@@ -871,7 +871,7 @@
   margin-bottom: 5rem;
 }
 #main_line2 {
-  margin-top: 6rem;
+  margin-top: 20rem;
 }
 #section3_main {
   margin-top: 20rem;
@@ -1311,8 +1311,8 @@
   }
 
 
-  @media only screen and (min-width: 800px) and (max-width: 1340px) and  (orientation : portrait)  {
+  /* @media only screen and (min-width: 800px) and (max-width: 1340px) and  (orientation : portrait)  {
     #main_line {
       margin-top: 40rem;
   }
-}
+} */

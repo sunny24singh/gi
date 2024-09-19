@@ -35,6 +35,7 @@ hover.addEventListener('mouseout' , () => {
 })
 
 
+//dropdown js
 
 let drop_btn = document.querySelector("#dropbtn");
 
@@ -45,21 +46,20 @@ drop_btn.addEventListener('mouseover' , () => {
 
     drop_data1.addEventListener('mouseover' , () => {
         drop_data1.style.display = "flex"  
+
+
     })
 })
 
-// setTimeout(() => {
-//     drop_btn.addEventListener('mouseout' , () => {
-//         drop_data1.style.display = "none"  
-//     }) 
-// }, 2000);
-
-
-
-
-
-drop_data1.addEventListener('mouseout' , () => {
-    
-
-    drop_data1.style.display = "none"  
+drop_data1.addEventListener('mouseout' , () => {   
+    drop_data1.style.display = "none"
 })
+
+
+
+let drop_close = document.querySelector("#drop_icon");
+
+drop_close.addEventListener("click" , () => {
+    drop_data1.style.display = "none"
+})
+

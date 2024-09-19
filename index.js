@@ -33,3 +33,33 @@ hover.addEventListener('mouseout' , () => {
     let d = document.querySelector("#section3_data_div1");
     d.setAttribute("style" , "")
 })
+
+
+
+let drop_btn = document.querySelector("#dropbtn");
+
+let drop_data1 = document.querySelector("#sec");
+
+drop_btn.addEventListener('mouseover' , () => { 
+    drop_data1.style.display = "flex"  
+
+    drop_data1.addEventListener('mouseover' , () => {
+        drop_data1.style.display = "flex"  
+    })
+})
+
+// setTimeout(() => {
+//     drop_btn.addEventListener('mouseout' , () => {
+//         drop_data1.style.display = "none"  
+//     }) 
+// }, 2000);
+
+
+
+
+
+drop_data1.addEventListener('mouseout' , () => {
+    
+
+    drop_data1.style.display = "none"  
+})

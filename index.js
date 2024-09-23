@@ -42,7 +42,7 @@ let drop_btn = document.querySelector("#dropbtn");
 let drop_data1 = document.querySelector("#sec");
 
 drop_btn.addEventListener('mouseover' , () => { 
-    drop_data1.style.display = "flex"  
+    drop_data1.style.display = "flex"   
 
     drop_data1.addEventListener('mouseover' , () => {
         drop_data1.style.display = "flex"  
